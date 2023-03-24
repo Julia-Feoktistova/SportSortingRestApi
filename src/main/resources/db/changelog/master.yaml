@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Feoktistova
+      changes:
+        - sqlFile:
+            path: \db\changelog\change_sets\create_team.sql
+  - changeSet:
+      id: 2
+      author: Feoktistova
+      changes:
+        - sqlFile:
+            path: \db\changelog\change_sets\create_participant.sql
+  - changeSet:
+      id: 3
+      author: Feoktistova
+      changes:
+        - sqlFile:
+            path: \db\changelog\change_sets\update_team.sql
+  - changeSet:
+      id: 4
+      author: Feoktistova
+      changes:
+        - sqlFile:
+            path: \db\changelog\change_sets\update_participant.sql
